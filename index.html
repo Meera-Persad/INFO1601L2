@@ -5,15 +5,64 @@
     <meta name="viewport" content="width=, initial-scale=" />
     <title>Home</title>
   </head>
+  <style> 
+    table{ 
+      border-color: yellow;
+      border-radius: 2px;
+    }
+
+    h1{
+      height:60px;
+      font-size: 30px;
+      background-color:aquamarine;
+    }
+    p{
+      color:green;
+    }
+    #myHeading{
+      color:blue;
+    }
+  </style>
   <body>
+    
     <nav>
-      <a href="index.html"><b>Home</b></a>
- 
+     
+      <a href="index.html"><b>Index</b></a>
+      <a href= "./pages/signup.html"><b>Sign UP</b></a>
+      <h1>Home</h1>
     </nav>
-    <h1>Home</h1>
+  </body>
 
   
+    </nav>
+
+        <table border= "solid">
+                <thead>
+                  <th>Item</th><th>Qty</th><th>Price</th><th>Total</th>
+                </thead>
+                <tbody>
+                   <tr>
+                        <td>Milk</td><td>2</td><td>$8.00</td><td>$16.00</td>
+                 </tr>
+                  <tr>
+                        <td>Eggs Pack</td><td>1</td><td>$6.00</td><td>$6.00</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                        <td>Total</td><td></td><td></td><td>$22.00</td>                          </tr>
+                </tfoot>
+        </table>
 
 
+        <h1 style = "color:blue"> Hello world</h1>
+        <h2 style="color:blueviolet">Smaller heading</h2>
+        <p>Paragraph 1.</p>
+        <p id="myHeading">Paragraph 2.</p>
+
+        <p>Radio input type:</p>
+        <input type="radio">
+    <script src="script.js"></script>
   </body>
+
 </html>
